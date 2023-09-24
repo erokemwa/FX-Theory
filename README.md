@@ -1,6 +1,6 @@
 # FX Theory
 
-<a href="http://fxtheory.tech/">Bankist</a> is a fictional and minimalistic online banking application.
+<a href="http://fxtheory.tech/">FX Theory</a> is a fintech company.
 
 Everything you need in a modern bank and more.
 · 100% digital bank
