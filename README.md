@@ -1,11 +1,6 @@
 # FX Theory
 
-<a href="http://fxtheory.tech/">FX Theory</a> is a fintech company.
-
-Everything you need in a modern bank and more.
-· 100% digital bank
-· Watch your money grow
-· Free debit card included.
+<a href="http://fxtheory.tech/">FX Theory</a> is a fintech company that is revolutionizing the finance industry by leveraging technology to provide an efficient and secure platform.
 
 ## What is FX THeory
 
