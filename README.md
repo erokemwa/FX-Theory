@@ -4,7 +4,7 @@
 
 ## What is FX THeory
 
-FX Theory is a fintech company. It is a project introduced by <a href="https://github.com/erokemwa">Eric Okemwa</a> in order to revolutionalise the fintech industry in Africa. FX Pay as one of of its produst has the option to log in to the account and use different functionalities, almost like in an actual bank!
+FX Theory is a fintech company. It is a project introduced by <a href="https://github.com/erokemwa">Eric Okemwa</a> to revolutionize the fintech industry in Africa. As one of its products, FX Pay has the option to log in to the account and use different functionalities, almost like in an actual bank!
 
 ## FX Pay Functionalities
 
@@ -15,7 +15,7 @@ FX Theory is a fintech company. It is a project introduced by <a href="https://g
 
 ## Login Details
 
-This is the template login details to use the bank functionality. The project does not include any backend and does not have an actual registration functionality. Make sure to use usernames are lowercase!
+This is the template login details to use the bank functionality. The project does not include any backend or have an actual registration functionality. Make sure to use usernames are lowercase!
 
 #### Account One
 
@@ -35,4 +35,4 @@ This is the template login details to use the bank functionality. The project do
 
 ## Contribution
 
-This project serves as a project to show off my personal skills. I do not accept any contributions like pull requests to this project however if you have any suggestions or ideas feel free to message me or submit an idea in the [discussions](https://github.com/erokemwa/FXTheory/discussions). Otherwise, you are free to fork this project and change it for your own purposes.
+This project serves as a project to show off my personal skills. I do not accept any contributions like pull requests to this project; however, if you have any suggestions or ideas, feel free to message me or submit an idea in the [discussions](https://github.com/erokemwa/FXTheory/discussions). Otherwise, you can fork this project and change it for your own purposes.
