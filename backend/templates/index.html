@@ -10,23 +10,23 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="static/img/favicon1.png" rel="icon">
-  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{ url_for('static', filename='img/favicon1.png') }}" rel="icon">
+  <link href="{{ url_for('static', filename='img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="static/vendor/aos/aos.css" rel="stylesheet">
-  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="static/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/aos/aos.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="static/css/style.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
 
   <!-- =======================================================
   * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
@@ -41,7 +41,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">FX THEORY</a></h1>
+      <h1 class="logo me-auto"><a href="/">FX THEORY</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="./Screenshot at Nov 26 23-49-33.png" class="img-fluid animated" alt=""></a>-->
 
@@ -76,7 +76,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="static/img/hero-img.png" class="img-fluid animated" alt="">
+          <img src="{{ url_for('static', filename='img/hero-img.png') }}" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -174,7 +174,7 @@
 
         <div class="row">
           <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-            <img src="static/img/skills.png" class="img-fluid" alt="">
+            <img src="{{ url_for('static', filename='img/skills.png') }}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>Why Us</h3>
@@ -212,7 +212,7 @@
       </div>
     </section><!-- End Skills Section -->
 	
-	<!-- ======= Aplication Section======= -->
+	<!-- ======= Application Section ======= -->
     <section id="application" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -227,13 +227,13 @@
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4><a href="">Online & Mobile Banking</a></h4>
               <p><ol>
-                      <li>Real-time account balance view<br>
-					  <li>Instant transaction updates<br>
-					  <li>Downloadable statements<br>
-					  <li>Convenient access through the portal, Android and iOS app, and USSD<br>
-					  <li>Instant mobile loans<br>
+                      <li>Real-time account balance view</li>
+					  <li>Instant transaction updates</li>
+					  <li>Downloadable statements</li>
+					  <li>Convenient access through the portal, Android and iOS app, and USSD</li>
+					  <li>Instant mobile loans</li>
 					  </ol>
-					  <strong>NB:Credentials: Passport,CV,Compaany certificates, colored passport photo of applicant</strong>
+					  <strong>NB:Credentials: Passport,CV,Company certificates, colored passport photo of applicant</strong>
 					  </p>
             </div>
           </div>
@@ -243,14 +243,14 @@
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Admin Platform </a></h4>
               <p><ol>
-				<li>KYC & Customer Relationship Management
-				<li>Deposits & Loan Account Management
-				<li>Teller, Vault & Cash Management
-				<li>Loan Process Automation
-				<li>Accounting & Reporting
-				<li>Credit Referencing
-				<li>Fraud Prevention
-				<li>Admin Panel
+				<li>KYC & Customer Relationship Management</li>
+				<li>Deposits & Loan Account Management</li>
+				<li>Teller, Vault & Cash Management</li>
+				<li>Loan Process Automation</li>
+				<li>Accounting & Reporting</li>
+				<li>Credit Referencing</li>
+				<li>Fraud Prevention</li>
+				<li>Admin Panel</li>
 				</ol>
 				<strong>NB: </strong>
 				</p>
@@ -263,11 +263,11 @@
               <h4><a href="">Analytics</a></h4>
               <p>
 			  <ol>
-			  <li>Data Collection and Integration
-			  <li>Data Warehousing and Management
-			  <li>Data Analytics and Visualization
-			  <li>Business Intelligence
-			  <li>Machine Learning
+			  <li>Data Collection and Integration</li>
+			  <li>Data Warehousing and Management</li>
+			  <li>Data Analytics and Visualization</li>
+			  <li>Business Intelligence</li>
+			  <li>Machine Learning</li>
 			  </ol>
 			  </p>
             </div>
@@ -284,7 +284,7 @@
 
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3>Intrestted?</h3>
+            <h3>Interested?</h3>
             <p>Online & Mobile Banking,Analytics & Admin Panel.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
@@ -304,12 +304,13 @@
         <div class="section-title">
           <h2>Team</h2>
           <p>FX Theory is a fintech company that is revolutionizing the finance industry by leveraging technology to provide an efficient and secure platform.</p>
+        </div>
 
         <div class="row">
 
           <div class="col-lg-6">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"><img src="static/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{ url_for('static', filename='img/team/team-1.jpg') }}" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Mr. Eric Okemwa</h4>
                 <span>Founder</span>
@@ -326,7 +327,7 @@
 
            <div class="col-lg-6 mt-4 mt-lg-0">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic"><img src="static/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{ url_for('static', filename='img/team/team-2.jpg') }}" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Mrs. Aisha Khalifan </h4>
                 <span>Co-Founder and Managing Partner</span>
@@ -416,7 +417,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="/contact" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -460,7 +461,7 @@
           <div class="col-lg-6">
             <h4>Join Our Newsletter</h4>
             <p>Subscribe </p>
-            <form action="" method="post">
+            <form action="/newsletter" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div>
@@ -486,7 +487,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#home">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li>
@@ -537,16 +538,16 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="static/vendor/aos/aos.js"></script>
-  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="static/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="static/vendor/php-email-form/validate.js"></script>
+  <script src="{{ url_for('static', filename='vendor/aos/aos.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/waypoints/noframework.waypoints.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/php-email-form/validate.js') }}"></script>
 
   <!-- Template Main JS File -->
-  <script src="static/js/main.js"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 
 </body>
 
